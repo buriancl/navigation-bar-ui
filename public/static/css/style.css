@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #1e252e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  background-color: #161e29;
+  width: 1336px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 61px 65px;
+  border-radius: 17px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+  margin-bottom: 65px;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 580px;
+  margin-right: 176px;
+}
+.navbar ul li a {
+  font-size: 16px;
+}
+.navbar button {
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.form-container {
+  background-color: #1e252e;
+  padding: 18px;
+  border-radius: 50px;
+}
+.form-container form {
+  display: flex;
+  align-items: center;
+}
+.form-container form label {
+  margin-right: 40px;
+}
+.form-container form select {
+  background: transparent;
+  border: none;
+  font-size: inherit;
+  color: inherit;
+  border-right: 2px solid #161e29;
+  width: 150px;
+  cursor: pointer;
+}
+.form-container form select:focus {
+  outline: none;
+}
+.form-container form select.engine {
+  border: none;
+}
+.form-container form select option {
+  background-color: #1e252e;
+  color: inherit;
+  font-size: inherit;
+  outline: none;
+}
+.form-container form button {
+  width: 110px;
+  height: 70px;
+  border: none;
+  border-radius: 50px;
+  background-color: #435ef4;
+  color: inherit;
+  font: inherit;
+  margin-left: 40px;
+  box-shadow: 0px 5px 0px 0px rgb(35, 62, 213);
+  cursor: pointer;
+  transition: all 200ms;
+}
+.form-container form button:active {
+  transform: scale(0.9);
+  box-shadow: 0px 2px 0px 0px rgb(35, 62, 213);
+}

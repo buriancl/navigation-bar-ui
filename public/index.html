@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation-Bar-UI</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./static/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Collections</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Articles</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">News</a></li>
+        </ul>
+        <button class="my-account-btn">
+          MY ACCOUNT <i class="fa-solid fa-chevron-down"></i>
+        </button>
+      </nav>
+      <div class="form-container">
+        <form .vehicle-form>
+          <div class="form-inner">
+            <label for="vehcile-select">SELECT VEHICLE</label>
+            <select
+              name="year"
+              id="year-select"
+              class="vehicle-select year"
+            ></select>
+            <select
+              name="make"
+              id="make-select"
+              class="vehicle-select make"
+            ></select>
+            <select
+              name="engine"
+              id="engine-select"
+              class="vehicle-select engine"
+            ></select>
+            <button type="submit">Search</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="./static/bundle/script.js"></script>
+  </body>
+</html>
